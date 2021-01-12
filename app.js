@@ -16,8 +16,6 @@ function countdown() {
   const hour = Math.floor((difference / 3600) % 24)
   const day = Math.floor(difference / 3600 / 24)
 
-  console.log(sec)
-
   days.innerHTML = day
   hours.innerHTML = hour
   minutes.innerHTML = min
